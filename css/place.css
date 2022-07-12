@@ -1,0 +1,42 @@
+div.place{
+    text-align: center;
+    width: 20%;
+    height: auto;
+    float: left;
+}
+button#home{
+    width: 60px;
+    height: auto;
+    text-align: center; 
+    float: left;
+}
+button#training_ground{
+    width: 60px;
+    height: auto;
+    text-align: center; 
+    float: left;
+}
+button#race{
+    width: 60px;
+    height: auto;
+    text-align: center; 
+    float: left;
+}
+div.home{
+    width: 33.33333333333333333333333333333333333333333333333333333333333333333333333333333333%;
+    height: auto;
+    text-align: center; 
+    float: left;
+}
+div.race{
+    width: 33.33333333333333333333333333333333333333333333333333333333333333333333333333333333%;
+    height: auto;
+    text-align: center; 
+    float: left;
+}
+div.training_ground{
+    width: 33.33333333333333333333333333333333333333333333333333333333333333333333333333333333%;
+    height: auto;
+    text-align: center; 
+    float: left;
+}
