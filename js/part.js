@@ -1,11 +1,12 @@
 function training(){
 
 }
-function rest(){
+function sleep(){
     $(document).ready(function(){
-          $("p.act").append("<p>sleep</p>")
+          $("p.act").append("<p>你睡了一觉，精神倍儿棒。</p>")
         });
-
+        tili=tili-10;
+        $("p.tili").text("体力："+tili+"%"); 
       }
 
 function racing(){
