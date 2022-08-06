@@ -59,7 +59,7 @@ function count(){
   $("p.test").text(x);
 }
 function clearHidden(){
-  var bottom=$('.act').position().top+$('.message').outerHeight(true);
+  var bottom=$('.act').position().top+$('.act').outerHeight(true);
   $('.act').each(function() {
      if($(this).position().top>=bottom-10){
         $(this).remove();
