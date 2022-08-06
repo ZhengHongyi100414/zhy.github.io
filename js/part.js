@@ -19,6 +19,9 @@ function racing(){
   $("p.baoshi").text("饱食:"+baoshi+"%");
   $("p.jishu").text("技术:"+jishu);
   $("p.caifu").text("财富:"+caifu+"$");
+  $(document).ready(function(){
+    $("p.act").append("<p>你比赛了一场。</p>")
+  });
 }
 function pee(){
 
@@ -28,4 +31,7 @@ function eat(){
   baoshi=baoshi+30;
   $("p.tili").text("体力："+tili+"%");
   $("p.baoshi").text("饱食:"+baoshi+"%");
+  $(document).ready(function(){
+    $("p.act").append("<p>你干了一顿饭</p>")
+  });
 }
