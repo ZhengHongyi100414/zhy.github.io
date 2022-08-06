@@ -1,6 +1,3 @@
-year=2020
-month=1
-day=1
 hour=7
 minute=0
 second=0
@@ -10,22 +7,16 @@ while(true){
         second=second+1
         if (second>=60){
             minute=minute+1
+            second=0
         }
-        if (second>=60){
-            minute=minute+1
+        if (minute>=60){
+            hour=hour+1
+            minute=0
         }
-        if (second>=60){
-            minute=minute+1
+        if (hour>=24){
+            hour=0
+        $("p.time").text("当前时间："+hour+":"+minute+":"+second);
         }
-        if (second>=60){
-            minute=minute+1
-        }
-    }
-
-
-
-    
-    $("p.time").text("当前时间："+time);
     function clearHidden(){
         var bottom=$('.act').position().top+$('.act').outerHeight(true);
         $('.act').each(function() {
@@ -34,4 +25,6 @@ while(true){
            }
         })
       }
+}
+    clearHidden()
 }
