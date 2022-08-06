@@ -22,6 +22,7 @@ function racing(){
   $(document).ready(function(){
     $("p.act").append("<p>你比赛了一场。</p>")
   });
+  clearHidden();
 }
 function pee(){
 
@@ -34,4 +35,5 @@ function eat(){
   $(document).ready(function(){
     $("p.act").append("<p>你干了一顿饭</p>")
   });
+  clearHidden();
 }

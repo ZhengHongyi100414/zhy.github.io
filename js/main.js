@@ -46,23 +46,10 @@ function home(){
 
 }
 function training_ground(){
-    console.log("training_ground")
-    place="training_ground"
+    console.log("training_ground");
+    place="training_ground";
 }
 function race(){
-    console.log("race")
-    place="race"
-}
-function count(){
-  x++;
-  console.log(x);
-  $("p.test").text(x);
-}
-function clearHidden(){
-  var bottom=$('.act').position().top+$('.act').outerHeight(true);
-  $('.act').each(function() {
-     if($(this).position().top>=bottom-10){
-        $(this).remove();
-     }
-  })
+    console.log("race");
+    place="race";
 }
