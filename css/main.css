@@ -1,0 +1,35 @@
+body {
+    background-color: #3c7c9c;
+}
+
+.header {
+    text-align: center;
+}
+.send {
+    text-align: center;
+}
+.box {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    border: 2px solid #66ccff;
+}
+
+/*
+.history {
+    float: left;
+    width: 75%;
+    padding: 15px;
+}
+.user {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+*/

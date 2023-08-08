@@ -1,15 +1,41 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <title>Game</title>
-        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+        <script type = "text/javascript" src = "js/client.js" ></script>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+        
     </head>
     <body>
-        <a href="/zombie/index.html">植物大战僵尸</a>
-        <a href="/driver/index.html">A driver`s life（半成品！！！）</a>
-        <a href="/yang_le_ge_yang/index.html">羊了个羊</a>
+        <h2 class="header">Online Chat Room</h3>
+        <h3 class="header">          ------Powered by ZhengHongyi</h5>
+        <br>
+        <div class="box">
+            <div class="send">
+                <p>Chat Box</p>
+                <input placeholder="your message">
+                <button id = "submit">submit</button>
+            </div>
+            <div class="row">
+                <p>
+                    <div class="history">
+                        <h4>Chat History:</h4>
+                        <div class = "container">
+                            <p id = "msg"></p>
+                        </div>
+                    </div>
+                </p>
+                <br>
+                <div class="user">
+                    <p>
+                        <h4>Users in ChatRoom:</h4> 
+                        <div>
+                            <p id = "userlistbox"></p>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
     </body>
-    <footer>
-        <a src="beian.miit.gov.cn">蜀ICP备2022015143号</a>
-    </footer>
 </html>
